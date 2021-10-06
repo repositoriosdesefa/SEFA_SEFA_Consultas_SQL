@@ -4,7 +4,7 @@
 
 ################ I. Librerías, drivers y directorio ################
 
-# I.1 Librerías
+# I.1 Librerías ----
 
 # i) RJDBC
 #install.packages("DBI")
@@ -69,7 +69,7 @@ dirSEFA5 <- dirSEFA[20:26,] # Reporte Trimestral Acciones Evaluación, IN y PAS,
 
 ################ II. Establecimiento de conexión ################
 
-# II.1 Credenciales
+# II.1 Credenciales ----
 usuario <- ""
 clave <- ""
 hostSEFA <- ""
@@ -98,7 +98,7 @@ conexionOEFA <- c(conexionSEFA, conexionSISEFA, conexionSEFA_RR)
 
 ############## III. Descarga y carga de información ##############
 
-# III.1 Funciones
+# III.1 Funciones ----
 
 # i) Lectura de SQL
 getSQL <- function(filepath){
@@ -150,7 +150,7 @@ R_baja_y_sube <- function(consulta, ID, hoja){
   return(out)
 }
 
-# III.2 Descarga y carga de información
+# III.2 Descarga y carga de información ----
 #Iteración sobre los argumentos definidos en el dataframe
 # i) Primera armada
 pwalk(list(dirSEFA1$Consulta, dirSEFA1$ID, dirSEFA1$Hoja),
