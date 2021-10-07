@@ -240,7 +240,7 @@ Pie_de_pagina <- blocks(
 
 # i) Botón de base de datos
 cta_button <- add_cta_button(
-  url = "https://drive.google.com/drive/folders/1NB620MUArYqmYWT1lCwzozICUDM7_4so",
+  url = "",
   text = "Bases de datos"
 )
 
@@ -266,7 +266,7 @@ Pueden acceder a las bases de datos actualizadas desde el siguiente enlace:"
 **Tener en cuenta:**
 - Este correo electrónico ha sido generado de manera automática a través de R.
 - El uso de lenguajes de programación de alto nivel (R, Python y SQL) para facilitar el trabajo realizado en SEFA es parte de un proyecto impulsado desde la Subdirección.
-- En caso de no querer recibir este correo, por favor, comuníquese a proyectossefa@oefa.gob.pe
+- En caso de no querer recibir este correo, por favor, comuníquese a ***
      ")
 )
 
