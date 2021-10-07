@@ -1,7 +1,7 @@
 # SEFA: Consultas SQL
-El proyecto Consultas SQL tuvo como objetivo extraer la información de los aplicativos de la Subdirección de Seguimiento de Entidades de Fiscalización Ambiental (SEFA), a fin de que puedan ser procesados para el análisis de datos, así como para que sirvan como fuentes para los tablero de control que maneja la subdirección.
+El proyecto Consultas SQL extrae información de los aplicativos de la Subdirección de Seguimiento de Entidades de Fiscalización Ambiental (SEFA), a fin de que puedan ser procesados para el análisis de datos y como fuentes de información para los tablero de control que maneja la subdirección.
 
-Al finalizar este proyecto se logró la extracción de datos de manera diaria, la cual se notifica a través de un correo, de los siguientes aplicativos: 
+La extracción de datos de realiza diariamente, la cual se notifica a través de un correo, de los siguientes aplicativos: 
 1. PLANEFA
 2. Reporte Trimestral
 3. SINADA
